@@ -47,7 +47,7 @@ export default function Documentacao() {
 
         {/* BASE URL */}
         <div className="bg-zinc-900 text-white p-4 rounded-xl text-sm font-mono">
-          http://localhost:3000
+          https://sadc-traffic-api.vercel.app/
         </div>
 
         {/* ENDPOINT PRINCIPAL */}
