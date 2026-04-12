@@ -3,14 +3,21 @@ export default function sitemap() {
     {
       url: "https://sadc-traffic-api.vercel.app/",
       lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
     },
     {
-      url: "https://sadc-traffic-api.vercel.app/#api",
+      url: "https://sadc-traffic-api.vercel.app/api",
       lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
-      url: "https://sadc-traffic-api.vercel.app/#sinais",
+      url: "https://sadc-traffic-api.vercel.app/api/sinais",
       lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+
     },
   ];
 }
