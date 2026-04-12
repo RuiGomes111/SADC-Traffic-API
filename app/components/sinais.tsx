@@ -2,8 +2,6 @@ import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 
 
-const divStyle="px-4 py-10 text-sm font-medium rounded bg-white/80 dark:bg-zinc-900/80 text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700 backdrop-blur transition-all duration-200 hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:shadow-md hover:scale-105 active:scale-95";
-
 const categorias = [
     { id: 0, nome: "Todos", quantidade: 100 },
     { id: 1, nome: "Cedência", quantidade: 20 },

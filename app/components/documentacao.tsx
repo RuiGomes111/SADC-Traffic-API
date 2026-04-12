@@ -3,15 +3,13 @@
 import { useState } from "react";
 import { sinais } from "../data/sinais";
 
-type tipo={
-    texto: string;
-    id: number;
-}
+
+type CopiadoId = "url" | "json1" | "fields" | "json2" | null;
 
 export default function Documentacao() {
-  const [copiado, setCopiado] = useState(null);
+   const [copiado, setCopiado] = useState<CopiadoId>(null);
 
-  const copiar = (texto, id) => {
+  const copiar = (texto: string, id: Exclude<CopiadoId, null>) => {
     navigator.clipboard.writeText(texto);
     setCopiado(id);
     setTimeout(() => setCopiado(null), 2000);
