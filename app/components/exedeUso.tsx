@@ -40,7 +40,7 @@ export default function ApiUseCase() {
             </p>
           </div>
 
-          <div className="bg-zinc-800/60 p-4 rounded-xl border border-zinc-700">
+          <div id="quiz" className="bg-zinc-800/60 p-4 rounded-xl border border-zinc-700">
             <h4 className="font-semibold text-white mb-1">🎮 Gamificação</h4>
             <p className="text-sm text-zinc-400">
               Aprender sinais jogando

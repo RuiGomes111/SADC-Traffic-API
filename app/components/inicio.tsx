@@ -38,7 +38,7 @@ export default function Inicio() {
           </Link>
 
           <Link 
-            href="/comecar" 
+            href="#quiz" 
             className="flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-2xl font-bold transition-all shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 hover:-translate-y-0.5"
           >
             <IoGameControllerOutline className="mr-2 text-xl" />
