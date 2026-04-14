@@ -1,9 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import { url } from "inspector";
 
 
 const categorias = [
-    { id: 0, nome: "Todos", quantidade: 100 },
+    { id: 0, nome: "Todos", quantidade: 100 , url:"filtroSinais"},
     { id: 1, nome: "Cedência", quantidade: 20 },
     { id: 2, nome: "Informação", quantidade: 30 },
     { id: 3, nome: "Proibição", quantidade: 25 },
@@ -26,7 +27,7 @@ export default function Sinais() {
     {categorias.map((cat, index) => {
       return (
         <Link
-          href=""
+          href={cat.url ? cat.url : "#"}
           key={index}
           className="group flex items-center justify-between 
           p-5 rounded-2xl 
