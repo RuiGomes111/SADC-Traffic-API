@@ -14,7 +14,7 @@ const categorias = [
 
 export default function Sinais() {
   return (
-    <div id="sinais" className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b dark:bg-black  w-full">
+    <div id="sinais" className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-white to-zinc-100 dark:from-zinc-900 dark:to-zinc-950 px-6 py-16 w-full">
         <div className="flex flex-col">
             <h1 className="text-4xl font-bold text-center mb-8 text-blue-500">Sinais de Trânsito</h1>
             <p className="text-center  text-sm md:text-lg text-gray-600 dark:text-gray-300 mb-12">Explore os diferentes tipos de sinais de trânsito e suas categorias.</p>

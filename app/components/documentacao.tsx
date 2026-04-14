@@ -30,7 +30,7 @@ export default function Documentacao() {
   };
 
   return (
-    <div id="api" className=" dark:bg-black px-6 py-16 w-full">
+    <div id="api" className=" bg-gradient-to-b from-white to-zinc-100 dark:from-zinc-900 dark:to-zinc-950 px-6 py-16 w-full">
       <div className="max-w-5xl mx-auto space-y-10">
 
         {/* HEADER */}

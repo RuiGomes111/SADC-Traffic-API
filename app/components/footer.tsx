@@ -3,7 +3,7 @@ import { FaGithub, FaGamepad } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="mt-20 border-t border-zinc-200 dark:border-zinc-800  dark:bg-black">
+    <footer className="bg-gradient-to-b from-white to-zinc-100 mt-20 border-t  border-zinc-200 dark:border-zinc-800  dark:from-zinc-900 dark:to-zinc-950">
 
       <div className="max-w-6xl mx-auto px-6 py-10">
 

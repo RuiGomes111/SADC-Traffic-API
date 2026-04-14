@@ -3,10 +3,10 @@ import { FaGamepad, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function ApiUseCase() {
   return (
-    <div className="mt-12 dark:bg-black ">
+    <div className="mt-12   bg-gradient-to-b from-white to-zinc-100 dark:from-zinc-900 dark:to-zinc-950 ">
 
       {/* Card principal */}
-      <div className="dark:bg-black bg-gradient-to-r from-zinc-900 to-zinc-800 text-white rounded-2xl p-6 md:p-8 shadow-lg border border-zinc-700">
+      <div className="bg-gradient-to-r from-zinc-900 to-zinc-800 text-white rounded-2xl p-6 md:p-8 shadow-lg border border-zinc-700 dark:from-zinc-900 dark:to-zinc-950 h-s">
 
         {/* Header */}
         <div className="flex items-center gap-3 mb-4">

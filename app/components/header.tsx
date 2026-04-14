@@ -89,7 +89,7 @@ export default function Header() {
 
           <li className="w-full md:w-auto">
             <Link
-              href="https://github.com"
+              href="https://github.com/RuiGomes111/SADC-Traffic-API"
               target="_blank"
               className={`${linkStyles} ${inactiveStyles}`}
             >

@@ -2,7 +2,7 @@
 
 export default function ExemplosIntegracaoGrid() {
   return (
-    <div >
+    <div className="bg-gradient-to-b from-white to-zinc-100 dark:from-zinc-900 dark:to-zinc-950 px-6 py-16 w-full">
       <h2 className="text-2xl font-bold text-zinc-900 dark:text-white mb-6 text-center">
         Exemplos de Integração
       </h2>

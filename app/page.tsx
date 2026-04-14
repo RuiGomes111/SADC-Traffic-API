@@ -6,7 +6,7 @@ import Integracao from "./components/integracao";
 import ExemplodeUso from "./components/exedeUso";
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center h-100vh ">
+    <div className="flex flex-col flex-1 items-center justify-center h-100vh bg-gradient-to-b from-white to-zinc-100 dark:from-zinc-900 dark:to-zinc-950">
       <Inicio />
       <Funcioanmento />
       <Sinais />  
